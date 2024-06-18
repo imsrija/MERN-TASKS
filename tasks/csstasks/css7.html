@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        #purple{
+            background-color: rgb(119, 32, 77);
+            width:70%;
+            margin-left:30px;
+            margin-right: auto;
+            color:white;
+            padding: 50px;   
+        }
+        #out{
+            background-color: rgb(182, 74, 161);
+            height: 370px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-left: auto;
+            margin-right:auto;
+            width:35%;       
+        }
+        .abc{     
+                height: 20px;
+            }     
+        .abcd{    
+            width:60px;
+        }   
+        .but{
+         width: auto; 
+        }    
+    </style>
+</head>
+<body>
+    <FORM>
+        <div id="out">
+        <div id="purple">
+        <table>
+            <tr>
+                <td><label for="name" class="abc">Name</label></td>
+                <td><input type="text" id="name" class="abc" value="your name" style="color: grey;"></td>
+            </tr>
+            <tr>
+                <td><label for="email" class="abc">Email</label></td>
+                <td><input type="text" id="email" name="id" class="abc" value="your email" style="color: grey;"></td>
+            </tr>
+            <tr>
+                <td><label for="pa" class="abc">Password</label></td>
+                <td><input type="password" id="pa" name="pa" class="abc"></td>
+            </tr>
+            <tr>
+                <td><label for="pn" class="abc">Phone Number:</label></td>
+                <td><input type="number" id="pn" class="abc"></td>
+            </tr>
+            <tr>
+                <td><label for="gen" class="abc">Gender:</label></td>
+                <td><input type="radio" name="gen" value="Male" class="abc">Male</input>
+                <input type="radio" name="gen" value="Female"  class="abc">Female</input>
+                <input type="radio" name="gen" value="Other" class="abc">Other</input></td>
+            </tr>
+            <tr>
+                <td><label for="lan" class="abc">Language:</label></td>
+                <td>
+                    <select>
+                        <option value="Select language">Select language</option>
+                        <option value="telugu">Telugu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="zc" class="abc">Zip Code:</label></td>
+                <td><input type="text" id="zc" class="abc"></td>
+            </tr>
+            <tr>
+                <td><label for="about" class="abc">About</label></td>
+                <td><input type="text" id="about" class="abc" value="Write about yourself..." style="color: grey;height: 50px;"></td>
+            </tr>
+           
+        </table>
+        <div class="but" style="text-align: center;"><button type="submit">Register</button></div>
+    </div>
+</div>
+    </FORM>
+</body>
+</html>
